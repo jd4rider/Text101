@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd6733cb811ec84dba8aa5536fab6ca, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "As I open the door, I can't see anything as all the lights are out,
+    yet I sense something there, something ominous...  \rA presence I haven't felt
+    for over 1000 years. It reminds me of when I was in warlock training. An old nemesis
+    perhaps? Maybe it\r is a long forgotten lover?  Whatever it is, it isn't happy
+    and it also senses me as well.\r\n\r\nThen, it dawned on me! I know this presence.
+    Lady Samantha.... And yes, she was a long forgotten lover, well, apparantly not
+    so long\r forgotten.  Not only was she a lover of Lovers, but she was also one
+    of the most talented sorceresses I had ever encountered.  \rShould I flee the
+    room back where I came from? Or should I face her head on?  She also knows I am
+    here and feels my presence.  Her \r\nhatred for me is very evident in the immense
+    rage I feel emminating from her presence.  If I flee, I am guaranteed that she
+    will find me.\r Her renound in the magical arts and ability to track a foe proceed
+    her, yet I am not the warlock I once was.\r\n\r\nWhat should I do?\r\n1. Deal
+    with my fears and face my opponent head on?\r\n2. Escape back through the door
+    to face her another day?"
+  nextStates:
+  - {fileID: 11400000, guid: 238d9366bfd1fc547871acb181d4ac37, type: 2}
+  - {fileID: 11400000, guid: 8191b3480edbf0b4b8daa9c264166eaf, type: 2}
